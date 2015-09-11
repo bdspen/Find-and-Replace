@@ -8,15 +8,15 @@
 ## Description
  An application that allows a user to input a sentence, pick a word from that sentence and replace that word with a new word. The inputs are three HTML forms, the inputs run through a javascript function and then the result is printed on the page.
 
- # - Future Features
+ - Future Features
  -add functionality so that the app will loop though and change multiple words in the original sentence.
  -add a dropdown selector to choose a word you want to change from the original sentence.
 
 
 
 ## Setup
-*Clone the repository onto your desktop using git clone in the command line and this link: https://github.com/bdspen/Find-and-Replace.git
-*Run the file FindReplace.html
+* Clone the repository onto your desktop using git clone in the command line and this link: https://github.com/bdspen/Find-and-Replace.git
+* Run the file FindReplace.html
 
 
 ## Technologies Used
