@@ -11,21 +11,20 @@
         <div class="container">
           <h1>Find/Replace</h1>
 
-          <form id='text'>
+          <form id='str'>
             <div class='form-group'>
-              <label for="string">Enter a sentence:</label>
-              <input id="string" type="text">
+              <label for="str">Enter a sentence:</label>
+              <input class="form-control" id="str" type="text">
 
-              <select id = selectword>
-                  <option></option>
-              </select>
+              <label for="toReplace">Retype the word you would like to replace:</label>
+              <input class="form-control" id="toReplace" type="text">
 
-              <label for="string">Enter replacement word:</label>
-              <input id="string" type="text">
+              <label for="newWord">Enter replacement word:</label>
+              <input class="form-control" id="newWord" type="text">
             </div>
 
             <button type="submit" class="btn btn-success">Submit</button>
-          </form>
+        </form>
 
           <div id="result">
             <h4><span class="string"></span></h4>
