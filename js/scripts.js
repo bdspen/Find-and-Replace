@@ -1,3 +1,3 @@
-var replace = function(string){
-    return string;
+var replace = function(str, toReplace, newWord){
+    return str.replace(toReplace, newWord)
 };
