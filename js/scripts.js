@@ -1,5 +1,5 @@
-var replace = function(str, toReplace, newWord){
-    return str.replace(toReplace, newWord)
+var replace = function(sentence, toReplace, newWord){
+    return sentence.replace(toReplace, newWord);
 };
 
 $(document).ready(function() {
